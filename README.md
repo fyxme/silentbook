@@ -2,8 +2,6 @@
 
 This is a Proof-of-Concept allowing encrypted messaging over Facebook. The messages are encrypted using AES256 before being sent meaning it's impossible for Facebook to view the contents of the messages.
 
-**WARNING: THIS WILL PROBABLY GET CAUGHT BY SPAM DETECTION AND GET YOUR ACCOUNT BLOCKED OR EVEN BANNED. USE AT YOUR OWN RISK.**
-
 ## Silentbook in action
 
 ![example video](assets/app-example.mov)
@@ -41,6 +39,8 @@ A more robust solution would be to use the Signal Protocol to exchange keys easi
 The process of encrypting a message is quite impractical if done manually therefore, we created a p.o.c. app to do it for us.
 
 ## How to use
+
+**WARNING: IF YOUR ACCOUNT IS NEW, THIS WILL PROBABLY TRIGGER SPAM DETECTION AND GET YOUR ACCOUNT BLOCKED UNTIL YOU VERIFY PHONE AND POTENTIALLY MORE. USE AT YOUR OWN RISK.**
 
 1. Exchange a secure passphrase with the person you want to communicate securely with. This will be converted into an assymetric encryption key.
 2. Clone the repo

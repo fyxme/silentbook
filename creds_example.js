@@ -1,5 +1,5 @@
 module.exports = {
     email: "<facebook_email>",
     password: "<facebook_password>",
-    key: "<secret_key>"
+    secret_passphrase: "<secret_key>"
 };

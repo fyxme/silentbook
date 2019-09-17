@@ -1,5 +1,5 @@
-const login = require("./facebook-chat-api/index.js");
-const creds = require("./creds.js");
+const login = require("facebook-chat-api");
+const creds = require("../creds.js");
 
 const CryptoJS = require("crypto-js");
 

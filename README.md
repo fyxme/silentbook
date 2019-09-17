@@ -1,4 +1,4 @@
-# Encrypted Facebook messenger
+# Silentbook - An Encrypted Facebook messenger
 
 This is a Proof-of-Concept allowing encrypted messaging over Facebook. The messages are encrypted before being sent meaning it's impossible for Facebook to view the contents of the messages.
 

@@ -2,8 +2,8 @@
 const login = require("facebook-chat-api");
 
 const creds = require("./creds.js");
-const actionHandler = require("./actions.js");
-const encryptor = require("./encryptor.js");
+const actionHandler = require("./src/actions.js");
+const encryptor = require("./src/encryptor.js");
 
 var stdin = process.openStdin();
 var t_id;

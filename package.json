@@ -1,0 +1,24 @@
+{
+  "name": "silentbook",
+  "version": "1.0.0",
+  "description": "This is a Proof-of-Concept allowing encrypted messaging over Facebook. The messages are encrypted before being sent meaning it's impossible for Facebook to view the contents of the messages.",
+  "main": "index.js",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "facebook-chat-api": "github:Schmavery/facebook-chat-api"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/jules.rigaudie/encrypted-facebook-messenger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/jules.rigaudie/encrypted-facebook-messenger/issues"
+  },
+  "homepage": "https://gitlab.com/jules.rigaudie/encrypted-facebook-messenger#readme"
+}

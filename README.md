@@ -2,6 +2,8 @@
 
 This is a Proof-of-Concept allowing encrypted messaging over Facebook. The messages are encrypted using AES256 before being sent meaning it's impossible for Facebook to view the contents of the messages.
 
+In this example, only Facebook Messenger is encrypted but theoretically it may be possible to encrypted all aspects of Facebook. Facebook posts, images, etc... A future update to this project potentially...
+
 ## Silentbook in action
 
 ![example video](assets/app-example.mov)
